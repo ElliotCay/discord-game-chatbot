@@ -4,7 +4,7 @@ Chatbot de jeu post-apocalyptique pour Discord.
 
 ## Installation
 
-1. Créez un fichier `.env` à partir de `.env.example` et renseignez votre `DISCORD_TOKEN`.
+1. Créez un fichier `.env` à partir de `.env.example` et renseignez votre `DISCORD_TOKEN` et votre `GEMINI_API_KEY`.
 2. Installez les dépendances :
    ```bash
    pip install -r requirements.txt

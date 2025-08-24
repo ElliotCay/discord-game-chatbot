@@ -13,7 +13,7 @@
 ## 🎯 Phase 1 : Infrastructure Core (Semaine 1)
 
 ### 1.1 Configuration et environnement
-- [ ] Ajouter `GEMINI_API_KEY` dans `.env.example`
+- [x] Ajouter `GEMINI_API_KEY` dans `.env.example`
 - [ ] Mettre à jour `requirements.txt` avec :
   ```
   google-generativeai>=0.3.0
