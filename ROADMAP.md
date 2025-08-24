@@ -14,36 +14,36 @@
 
 ### 1.1 Configuration et environnement
 - [x] Ajouter `GEMINI_API_KEY` dans `.env.example`
-- [ ] Mettre à jour `requirements.txt` avec :
+- [x] Mettre à jour `requirements.txt` avec :
   ```
   google-generativeai>=0.3.0
   aiofiles>=23.0.0
   asyncio>=3.4.3
   python-dateutil>=2.8.2
   ```
-- [ ] Créer `config.py` pour centraliser la configuration
-  - [ ] Charger les variables d'environnement
-  - [ ] Définir les constantes du jeu (difficultés, seuils, etc.)
-  - [ ] Configurer les timeouts et limites
+- [x] Créer `config.py` pour centraliser la configuration
+  - [x] Charger les variables d'environnement
+  - [x] Définir les constantes du jeu (difficultés, seuils, etc.)
+  - [x] Configurer les timeouts et limites
 
 ### 1.2 Architecture des agents IA
-- [ ] Créer `AGENTS.md` avec la spécification des agents
-- [ ] Créer `game/ai_manager.py`
-  - [ ] Classe `NarratorAgent` pour la narration
-  - [ ] Classe `NPCAgent` pour les PNJs
-  - [ ] Classe `EventAgent` pour les événements aléatoires
-  - [ ] Système de prompts contextuels
-  - [ ] Gestion de la mémoire conversationnelle
+- [x] Créer `AGENTS.md` avec la spécification des agents
+- [x] Créer `game/ai_manager.py`
+  - [x] Classe `NarratorAgent` pour la narration
+  - [x] Classe `NPCAgent` pour les PNJs
+  - [x] Classe `EventAgent` pour les événements aléatoires
+  - [x] Système de prompts contextuels
+  - [x] Gestion de la mémoire conversationnelle
 
 ### 1.3 Logging et monitoring
-- [ ] Créer `game/logger.py`
-  - [ ] Configuration des niveaux de log
-  - [ ] Rotation des fichiers de log
-  - [ ] Logs spécifiques par utilisateur
-- [ ] Ajouter des métriques de performance
-  - [ ] Temps de réponse des commandes
-  - [ ] Usage de l'API Gemini
-  - [ ] Statistiques des joueurs
+- [x] Créer `game/logger.py`
+  - [x] Configuration des niveaux de log
+  - [x] Rotation des fichiers de log
+  - [x] Logs spécifiques par utilisateur
+- [x] Ajouter des métriques de performance
+  - [x] Temps de réponse des commandes
+  - [x] Usage de l'API Gemini
+  - [x] Statistiques des joueurs
 
 ---
 
